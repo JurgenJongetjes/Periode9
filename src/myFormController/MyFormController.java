@@ -1,4 +1,4 @@
-package controllers;
+package myFormController;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -8,16 +8,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class MyFirstController2
+ * Servlet implementation class MyFormController
  */
-@WebServlet("/test-controller")
-public class MyFirstController2 extends HttpServlet {
+@WebServlet("/MyFormController")
+public class MyFormController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public MyFirstController2() {
+    public MyFormController() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -26,12 +26,7 @@ public class MyFirstController2 extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		request.setAttribute("cat", "Mimi");
-		request.getRequestDispatcher("/HelloWorld.jsp").forward(request, response);
-		
-		String param = request.getParameter("cat");
-		System.out.println("Get parameter in Servlet: " + param);
-		
+		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
 
@@ -41,6 +36,9 @@ public class MyFirstController2 extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		doGet(request, response);
+		
+		String param = request.getParameter("naam");
+		System.out.println("POST parameter in Servlet: " + param);
 	}
 
 }

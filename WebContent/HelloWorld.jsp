@@ -19,6 +19,15 @@
 	<div>
 		<p><%= request.getAttribute("cat") %></p>
 	</div>
+	<br></br>
+	<div>
+		<p>Filter (get parameter) <%=request.getParameter("cat")  %> <% out.println("Get parameter in Servlet: " + request.getParameter("cat")); %></p>
+	</div>
+	<br></br>
+	<div>
+		${pageContext.request.queryString}
+		${pageContext.request.contextPath}
+	</div>
 
 </body>
 </html>

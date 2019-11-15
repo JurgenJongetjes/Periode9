@@ -1,0 +1,77 @@
+.footer {
+	height: 120px;
+	width: 100%;
+	background-color: lightblue;
+	border-radius: 15px 15px 0px 0px;
+	position: absolute;
+	bottom: 0;
+	box-shadow: 5px 10px 8px 10px #888888;
+}
+
+.content {
+	overflow: auto;
+	padding: 20px;
+}
+
+.links1 {
+	float: left;
+	margin-right: 10px;
+	padding-right: 5px;
+	border-right: 2px solid white;
+}
+
+.links1 a {
+	color: white;
+	text-align: left;
+	display: block;
+	font-size: 20px;
+}
+
+.links2 {
+	float: left;
+	padding-right: 10px;
+	padding-right: 5px;
+	border-right: 2px solid white;
+}
+
+.links2 a {
+	color: white;
+	text-align: left;
+	display: block;
+	font-size: 20px;
+}
+
+.links3 {
+	float: left;
+	padding-right: 10px;
+	padding-right: 5px;
+	border-right: 2px solid white;
+}
+
+.links3 a {
+	color: white;
+	text-align: left;
+	display: block;
+	font-size: 20px;
+}
+
+.copyrt {
+	float: right;
+}
+
+.copyrt p {
+	color: white;
+	font-size: 17px;
+}
+
+a {
+	text-decoration: none;
+	font-style: normal;
+}
+
+a:hover {
+	transition-duration: 1s;
+	font-size: 24px;
+	text-decoration: underline;
+	font-weight: bold;
+}

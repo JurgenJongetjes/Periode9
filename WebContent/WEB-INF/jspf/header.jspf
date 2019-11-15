@@ -11,9 +11,11 @@
 
 <div style="background-color:lightblue">
 	<h1>HelloBike</h1>
-	<pre> <ul class="Header">
-  <li>Optie 1</li>                              <li>Optie 2</li>                              <li>Optie 3</li>
-</pre>
+	 <ul class="Header">
+  <li>Optie 1</li>
+  <li>Optie 2</li>
+  <li>Optie 3</li>
+
 </ul>
 
 </div>

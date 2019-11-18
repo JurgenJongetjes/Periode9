@@ -5,12 +5,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Java WebDevelopment</title>
-<link href="styles/styles.css" rel="stylesheet" type="text/css">
+<link href="styles/header.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
 <div style="background-color:lightblue">
-	<h1>HelloBike</h1>
+	<h1>HelloBike!</h1>
 	 <ul class="Header">
   <li>Optie 1</li>
   <li>Optie 2</li>
@@ -22,3 +22,5 @@
 
 </body>
 </html>
+
+<!-- Made by Jurgen -->

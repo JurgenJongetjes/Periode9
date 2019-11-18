@@ -6,16 +6,26 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <link rel="stylesheet" type="text/css" href="styles/home.css"></link>
-<title>Home</title>
+<title>Home - HelloBike!</title>
 </head>
 <body>
-	<%@ include file="WEB-INF/jspf/header.jspf" %>
-	<br></br>
-	<%=config.getInitParameter("welkom") %>
-	<br></br>
-	<%@ include file="WEB-INF/jspf/nav.jspf" %>
-	<br></br>
-	<%@ include file="WEB-INF/jspf/footer.jspf" %>
-	<br></br>
+<div class="bodyDiv">
+	<div class="headerNav">
+		<%@ include file="WEB-INF/jspf/header.jspf" %>
+		<br></br>
+	</div>
+	
+	<div class="contentDiv">
+		<div class="content">
+			<%=config.getInitParameter("welkom") %>
+			<br></br>
+		</div>
+	</div>
+	
+	<div class="footer">
+		<%@ include file="WEB-INF/jspf/footer.jspf" %>
+		<br></br>
+	</div>
+</div>
 </body>
 </html>

@@ -6,7 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <link rel="stylesheet" type="text/css" href="styles/home.css"></link>
-<title>LOGIN - HelloBike!</title>
+<title>REGISTER - HelloBike!</title>
 </head>
 <body>
 	<div class="headerNav">
@@ -21,8 +21,11 @@
 				<br></br>
 				Password: <br></br>
 				<input class="input" type="password" name="password"></input>
+				<br></br>
+				Repeat Password: <br></br>
+				<input class="input" type="password" name="repeatPassword"></input>
 				<br></br><br></br>
-				<input class="loginbtn" type="submit" value="Login"></input>
+				<input class="loginbtn" type="submit" value="Register"></input>
 			</form>
 		</div>
 	</div>

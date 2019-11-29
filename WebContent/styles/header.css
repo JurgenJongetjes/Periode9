@@ -1,17 +1,37 @@
-h1 {
- text-align: center;
- margin: 0px;
+.header {
+	box-shadow: 3px 3px 3px 3px #888888;
+	height: 100px;
+	width: 100%;
+	background-color: lightblue;
+	position: absolute;
+	top: 0;
 }
 
-li{
-	display: inline-block;
-	margin: 100px;
-	text-align: center;
-	margin: 0px;
+.lijst {
+	overflow: auto;
+	padding: 15px;
+	margin: 15px;
 }
 
-body{
-	margin: 0px;
+.num1 {
+	float: left;
+	margin-right: 10px;
+	padding-right: 5px;
+	border-right: 2px solid white;
+}
+
+.num2 {
+	float: left;
+	margin-right: 10px;
+	padding-right: 5px;
+	border-right: 2px solid white;
+}
+
+.num3 {
+	float: left;
+	margin-right: 10px;
+	padding-right: 5px;
+	border-right: 2px solid white;
 }
 
 /* Made by Jurgen */

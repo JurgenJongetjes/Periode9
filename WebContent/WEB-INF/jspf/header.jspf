@@ -9,16 +9,23 @@
 </head>
 <body>
 
-<div style="background-color:lightblue">
-	<h1>HelloBike!</h1>
-	 <ul class="Header">
-  <li>Optie 1</li>
-  <li>Optie 2</li>
-  <li>Optie 3</li>
-
-</ul>
-
+<div class="header">
+	<div class="lijst">
+		<div class="num1">
+			<a href="">Home</a>
+			<a href=""></a>
+			</div>
+		<div class="num2">
+			<a href="">About us</a>
+			<a href=""></a>
+			</div>
+		<div class="num3">
+			<a href="">test</a>
+			<a href=""></a>
+			</div>
+	</div>
 </div>
+
 
 </body>
 </html>

@@ -17,7 +17,9 @@
 	
 	<div class="contentDiv">
 		<div class="content">
-			<%=config.getInitParameter("welkom") %>
+			<p>Hier komt content te staan (post 1)</p>
+			<div class="Foto1"></div>
+			<p> <img scr="/Periode9/img/Foto1.jpg" width="100" height="100" alt="FietsFoto"></img></p>
 			<br></br>
 		</div>
 	</div>

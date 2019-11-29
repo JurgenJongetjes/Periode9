@@ -12,7 +12,7 @@
 	</div>
 	<br></br>
 	<div>
-		<%-- Di tis een JSP comment --%>
+		<%-- Dit is een JSP comment --%>
 		<p><% out.println("Your IP address is " + request.getRemoteAddr()); %></p>
 	</div>
 	<br></br>

@@ -19,7 +19,7 @@
 		<div class="content">
 			<p>Hier komt content te staan (post 1)</p>
 			<div class="Foto1"></div>
-			<p> <img scr="/Periode9/img/Foto1.jpg" width="100" height="100" alt="FietsFoto"></img></p>
+			<img src="/Periode9/img/Fiets1.jpg" width="300" height="300" alt="FietsFoto"></img>
 			<br></br>
 		</div>
 	</div>
@@ -31,3 +31,5 @@
 </div>
 </body>
 </html>
+
+<!-- Made by Jurgen & Chiel -->

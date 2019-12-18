@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<link rel="stylesheet" type="text/css" href="styles/footer.css"></link>
+</head>
+<body>
+	<div class="footer">
+		<div class="content">
+			<div class="links1">
+				<a href="">Home</a>
+				<a href="">Fiets Verhalen</a>
+				<a href="">FietserVanDeMaand</a>
+			</div>
+			<div class="links2">
+				<a href="">Nieuwsbrief</a>
+				<a href="">Aanbiedingen</a>
+				<a href="">Over Ons</a>
+			</div>
+			<div class="links3">
+				<a href="">Ratings</a>
+				<a href="">Links</a>
+				<a href=""></a>
+			</div>
+			<div class="copyrt">
+				<p>Copyright 2019 HelloBike!</p>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Bootstrap core JavaScript================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="<%=request.getContextPath()%>/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+<!-- Made by Chiel -->

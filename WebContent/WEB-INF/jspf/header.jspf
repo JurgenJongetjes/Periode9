@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Java WebDevelopment</title>
+<link href="styles/header.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+		
+<div class="header">
+	<div class="lijst">
+		<div class="num1">
+			<a href="">Home</a>
+			<a href=""></a>
+			</div>
+		<div class="num2">
+			<a href="">About us</a>
+			<a href=""></a>
+			</div>
+		<div class="num3">
+			<a href="">test</a>
+			<a href=""></a>
+			</div>
+			
+			<div class="titel">
+				<h1>HelloBike!</h1>
+			</div>
+	</div>
+</div>
+
+
+</body>
+</html>
+
+<!-- Made by Jurgen -->

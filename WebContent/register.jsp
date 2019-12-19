@@ -15,7 +15,7 @@
 	</div>
 	<div class="index">
 		<div class="login">
-			<form action="MyFormController" method="post">
+			<form class="form" action="MyFormController" method="post">
 				Username: <br></br>
 				<input class="input" type="text" name="username"></input>
 				<br></br>
@@ -30,4 +30,6 @@
 		</div>
 	</div>
 </body>
-</html> 
+</html>
+
+<!-- Made by Chiel -->

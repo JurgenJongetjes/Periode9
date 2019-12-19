@@ -2,6 +2,7 @@
 
 import java.io.IOException;
 import java.sql.Connection;
+import java.util.ArrayList;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -35,8 +36,9 @@ public class TestDatabase extends HttpServlet {
     		    if (connection != null) {
     		// Debug
     		System.out.println("Connection working!: " + connection.toString());
+    		
     		}
-    		}
+    	}
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)

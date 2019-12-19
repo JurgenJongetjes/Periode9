@@ -3,6 +3,7 @@ package myFormController;
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.sql.Statement;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -13,10 +14,10 @@ import javax.servlet.http.HttpServletResponse;
 import util.DBConnection;
 
 @WebServlet("/MyFormController")
-public class MyFormController extends HttpServlet {
+public class RegisterController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-	public MyFormController() {
+	public RegisterController() {
 		super();
 	}
 
@@ -33,12 +34,23 @@ public class MyFormController extends HttpServlet {
 		if (connection != null) {
 			// Debug
 			System.out.println("Connection: " + connection.toString());
-
+			String username = "";
+			String password = "";
+			username = request.getParameter("username");
+			password = request.getParameter("password");
+			
+			String Registreer = "INSERT INTO `users` (`userid`, `username`, `password`) VALUES (NULL, '" + username + "', '"+ password +"')";
+			Statement statement = connection.createStatement();
+			statement.executeUpdate(Registreer);
+			System.out.println("Nieuw account is aangemaakt");
 		}
+	} catch (SQLException e) {
+		e.printStackTrace();
+		
 	}
 }
-
 }
+//Made by Jurgen en Chiel//
 
 
 
